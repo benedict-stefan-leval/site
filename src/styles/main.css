@@ -1,1 +1,96 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: 'Abel';
+    src: url('../fonts/Abel-Regular.woff2') format('woff2'),
+        url('../fonts/Abel-Regular.woff') format('woff'),
+        url('../fonts/Abel-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abel';
+    src: url('../fonts/Abel-Regular_1.woff2') format('woff2'),
+        url('../fonts/Abel-Regular_1.woff') format('woff'),
+        url('../fonts/Abel-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brushstroke Plain';
+    src: url('../fonts/BrushstrokePlain.woff2') format('woff2'),
+        url('../fonts/BrushstrokePlain.woff') format('woff'),
+        url('../fonts/BrushstrokePlain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brushstroke Plain';
+    src: url('../fonts/BrushstrokePlain_1.woff2') format('woff2'),
+        url('../fonts/BrushstrokePlain_1.woff') format('woff'),
+        url('../fonts/BrushstrokePlain_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+  font-family: 'Brushstroke Plain';
+}
+h2 {
+  font-family: 'Brushstroke Plain';
+}
+h4 {
+  font-family: 'Brushstroke Plain';
+}
+p {
+  font-family: 'Abel';
+}
+
+a > div {
+  color: black;
+  text-decoration: none;
+}
+
+a > img {
+  color: black;
+  text-decoration: none;
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#content {
+  background: solid;
+  background-color: white;
+}
