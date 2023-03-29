@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Abel';
+    src: url('Abel-Regular.woff2') format('woff2'),
+        url('Abel-Regular.woff') format('woff'),
+        url('Abel-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abel';
+    src: url('Abel-Regular_1.woff2') format('woff2'),
+        url('Abel-Regular_1.woff') format('woff'),
+        url('Abel-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brushstroke Plain';
+    src: url('BrushstrokePlain.woff2') format('woff2'),
+        url('BrushstrokePlain.woff') format('woff'),
+        url('BrushstrokePlain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brushstroke Plain';
+    src: url('BrushstrokePlain_1.woff2') format('woff2'),
+        url('BrushstrokePlain_1.woff') format('woff'),
+        url('BrushstrokePlain_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
